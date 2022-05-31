@@ -1,22 +1,25 @@
 /* body {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 } */
 
 .sectionone {
   height: 25vh;
   background-color: orange;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
+  align-items: center; //this worked!!!!!! to center my section
+  /* gap: 10px; */
+  /* justify-content: center; */
 }
 
 .containerone {
   background-color: blue;
-  border: 4px solid yellow;
   height: 20vh;
   width: 70%;
   display: flex;
-  justify-content: center;
+  /* justify-content: space-between; */
 }
 
 .logolinks {
@@ -29,5 +32,5 @@
   background: peachpuff;
   border: 4px solid brown;
   height: 100px;
-  width: 100px;
+  width: 70%;
 }
