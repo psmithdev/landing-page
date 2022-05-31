@@ -4,14 +4,12 @@ body {
     flex-direction: column;
     margin: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* width: 70%; */ //i want to shrink the content to 70% width of the webpage and left align header, hero text, call to action
 }
 
 main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* width: 70%; */ //this didn't work either
 }
 
 footer {
@@ -20,15 +18,12 @@ footer {
     justify-content: center;
     margin: 10px;
     padding: 10px;
-    /* margin-top: auto; */
     border: 4px solid  blue;
 }
 
 .headerlogo {
     display: flex;
     align-items: center;
-    /* border: 4px solid  blue; */
-    /* height: 50px */  //change the font size instead
 }
 
 .ulright {
@@ -36,9 +31,6 @@ footer {
     display: flex;
     gap: 15px;
     font-size: 18px;
-}
-
-ul {
     list-style-type: none;
 }
 
@@ -50,7 +42,6 @@ a {
 .h1left {
     font-size: 24px;
     color: #f9faf8;
-    /* font: 24px #f9faf8; */ //i cant combine size and color into a font shorthand
 }
 
 .sectionone, .headerlogo {
@@ -67,7 +58,7 @@ a {
     color: #e5e7eb;
 }
 
-.sectionone {
+.sectionone, .sectiontwo, .sectionthree, .sectionfour {
     display: flex;
 }
 

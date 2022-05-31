@@ -1,0 +1,33 @@
+/* body {
+  display: flex;
+} */
+
+.sectionone {
+  height: 25vh;
+  background-color: orange;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.containerone {
+  background-color: blue;
+  border: 4px solid yellow;
+  height: 20vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.logolinks {
+  background-color: red;
+  height: 2em;
+  width: 70%;
+}
+
+.containerone div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  width: 100px;
+}
