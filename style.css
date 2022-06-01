@@ -1,78 +1,84 @@
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px;
-    border: 4px solid  blue;
-}
-
-.headerlogo {
-    display: flex;
-    align-items: center;
-}
-
-.ulright {
-    margin-left: auto;
-    display: flex;
-    gap: 15px;
-    font-size: 18px;
-    list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border: 4px solid blue;
 }
 
 a {
-    text-decoration: none;
-    color: #e5e7eb;
-}
-
-.h1left {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.sectionone, .headerlogo {
-    background-color: #1f2937;
-}
-
-.heroh1 {
-    font-size: 48px;
-    color: #f9faf8;
-}
-
-.herop {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.sectionone, .sectiontwo, .sectionthree, .sectionfour {
-    display: flex;
-}
-
-img {
-    width: 400px;
-    height: 300px;
-}
-
-.flexcolumnone {
-    display: flex;
-    flex-direction: column;
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 button {
-    background-color: #3882f6;
-    width: 20%;
+  background-color: #3882f6;
+  width: 20%;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.sectionone {
+  background-color: #1f2937;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerone {
+  width: 70%;
+  display: flex;
+}
+
+.containerone div {
+  border: 4px solid brown;
+  width: 70%;
+}
+
+.logolinks {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 2em;
+}
+.ulright {
+  margin-left: auto;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.h1left {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.heroh1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.herop {
+  font-size: 18px;
+  color: #e5e7eb;
 }

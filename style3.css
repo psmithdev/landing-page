@@ -1,17 +1,9 @@
-/* body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
 .sectionone {
   height: 25vh;
   background-color: orange;
   display: flex;
   flex-direction: column;
   align-items: center; //this worked!!!!!! to center my section
-  /* gap: 10px; */
-  /* justify-content: center; */
 }
 
 .containerone {
@@ -19,18 +11,17 @@
   height: 20vh;
   width: 70%;
   display: flex;
-  /* justify-content: space-between; */
-}
-
-.logolinks {
-  background-color: red;
-  height: 2em;
-  width: 70%;
 }
 
 .containerone div {
   background: peachpuff;
   border: 4px solid brown;
   height: 100px;
+  width: 70%;
+}
+
+.logolinks {
+  background-color: red;
+  height: 2em;
   width: 70%;
 }
