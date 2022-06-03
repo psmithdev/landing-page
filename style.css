@@ -2,7 +2,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -16,9 +16,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
   padding: 10px;
-  border: 4px solid blue;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 a {
@@ -133,4 +133,31 @@ img {
 
 .thor {
   margin: 0 20%;
+}
+
+/* Section Four */
+
+.sectionfour {
+  height: 20vh;
+  margin: 50px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.bluebox {
+  background-color: #3882f6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.button2 {
+  height: 40px;
+  align-self: center;
+  margin: 20px;
 }

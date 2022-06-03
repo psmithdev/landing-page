@@ -18,6 +18,10 @@ justify-content: center; was not working and I did not understand why. Finally, 
 
 Vscode shortcut: delete line (ctrl + shift + k)
 
-Section two had a div wrapped around each image with text underneath. Flex wrap and a defined width allowed this to happen.
+Section two had a div wrapped around each image with text underneath. Flex-wrap and a defined width allowed this to happen.
 
 Almost forgot about inline style for HTML tags. Saves a few lines in the style.css file.
+
+Align-self was nice to use for the button in the call to action. Wanted to center the button with the two p tags.
+
+Overall, this was a really good test of my flexbox skills and what I know so far. I have come a long way since I first made a container and a few flex items to move around a webpage.
