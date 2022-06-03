@@ -28,37 +28,44 @@ a {
 
 button {
   background-color: #3882f6;
-  width: 20%;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 5px 15px;
 }
 
 img {
-  width: 400px;
-  height: 300px;
+  height: 200px; /* fixed height breaks webpage when shrinking window size */
+  width: auto; /*try max-width or max-height*/
 }
+
+/* Section One */
 
 .sectionone {
   background-color: #1f2937;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .containerone {
-  width: 70%;
+  width: 75%;
   display: flex;
+  align-items: center;
 }
 
 .containerone div {
-  border: 4px solid brown;
-  width: 70%;
+  /* border: 4px solid brown; */
+  width: 75%;
 }
 
 .logolinks {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 75%;
   height: 2em;
+  margin-bottom: 30px;
 }
 .ulright {
   margin-left: auto;
@@ -82,3 +89,32 @@ img {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* Section Two */
+
+.sectiontwo {
+  margin: 10px 10%;
+}
+
+.sectiontwo h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.fourboxcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.dinobox {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+.dinobox img {
+  border-radius: 10px;
+}
+
+/* Section Three  */
