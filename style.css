@@ -94,6 +94,7 @@ img {
 
 .sectiontwo {
   margin: 10px 10%;
+  height: 30vh;
 }
 
 .sectiontwo h1 {
@@ -118,3 +119,18 @@ img {
 }
 
 /* Section Three  */
+
+.sectionthree {
+  background-color: #e5e7eb;
+}
+
+.thor p {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  font: 36px light italic;
+}
+
+.thor {
+  margin: 0 20%;
+}

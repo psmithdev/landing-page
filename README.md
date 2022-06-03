@@ -19,3 +19,5 @@ justify-content: center; was not working and I did not understand why. Finally, 
 Vscode shortcut: delete line (ctrl + shift + k)
 
 Section two had a div wrapped around each image with text underneath. Flex wrap and a defined width allowed this to happen.
+
+Almost forgot about inline style for HTML tags. Saves a few lines in the style.css file.
